@@ -1,0 +1,1521 @@
+@media (max-width: 1439px) {
+  #news .news--main__svg {
+    display: none;
+  }
+  #begin .begin--img1 {
+    display: none;
+  }
+}
+
+@media (max-width: 1380px) {
+  #customer {
+    .customer {
+      &--img2 {
+        display: none
+      }
+
+      &--message {
+        &__info {
+          width: 97%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1320px) {
+  #customer {
+    .customer {
+      &--message {
+        h1 {
+          font-size: 26px;
+        }
+
+        &__subject2 {
+          margin: 0 0 20px 0;
+        }
+      }
+    }
+  }
+  #business {
+    .business {
+      &--get {
+        img {
+          width: 101.5%;
+        }
+
+        h2 {
+          margin: -74px 0 0 107px;
+        }
+
+        &__ticket {
+          button {
+            margin: 20px 0 0 50px;
+          }
+
+          &--deadline {
+            width: 75%;
+          }
+        }
+      }
+    }
+  }
+  #begin .begin--img4 {
+    display: none;
+  }
+}
+
+@media (max-width: 1285px) {
+  #customer {
+    .customer {
+      &--message {
+        img {
+          width: 122.5%;
+        }
+      }
+    }
+  }
+  #business .business--get img {
+    width: 102.5%;
+  }
+  #trust .trust--card__start {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1230px) {
+  #work {
+    .work {
+      &--img {
+        display: none;
+      }
+    }
+  }
+  #customer {
+    .customer {
+      &--message {
+        h1 {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+  #business .business--get h2 {
+    margin: -74px 0 0 85px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #begin {
+    .begin {
+      &--img1 {
+        display: none;
+      }
+    }
+  }
+  #work {
+    .work {
+      &--img {
+        padding: 620px 0 0 900px;
+      }
+    }
+  }
+  #customer {
+    .customer {
+      &--img2 {
+        display: none;
+      }
+
+      &--message {
+        h1 {
+          font-size: 23px;
+        }
+
+        p {
+          font-size: 13px;
+        }
+
+        &__subject {
+          width: 68%;
+        }
+
+        &__subject2 {
+          width: 69%;
+          height: 75px;
+        }
+
+        &__info {
+          width: 91%;
+
+          &--input {
+            width: 25%;
+          }
+        }
+      }
+    }
+  }
+  #trust {
+    .trust {
+      &--card {
+        padding: 0 0 0 200px;
+
+        &__start {
+          width: 85%;
+        }
+      }
+    }
+  }
+  #business {
+    .business {
+      &--get {
+        h2 {
+          margin: -70px 0 0 95px;
+        }
+
+        &__ticket {
+          button {
+            margin: 20px 0 0 50px;
+          }
+        }
+      }
+    }
+  }
+  #meet .meet--position h3 {
+    font-size: 17px;
+  }
+  #news {
+    .news {
+      &--main {
+        width: 103%;
+
+        &__two {
+          margin: 0 0 0 20px;
+        }
+
+        &__svg {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #begin {
+    .begin {
+      h1 {
+        font-size: 45px;
+      }
+
+      &--norton {
+        width: 24%;
+      }
+    }
+  }
+  #work .work--img {
+    padding: 600px 0 0 700px;
+  }
+  #customer {
+    .customer {
+      &--message {
+        img {
+          width: 127%;
+        }
+
+        h1 {
+          font-size: 17px;
+        }
+
+        p {
+          font-size: 11px;
+        }
+
+        &__info {
+          width: 102%;
+        }
+
+        &__subject {
+          width: 80%;
+        }
+
+        &__subject2 {
+          width: 80%;
+          height: 30px;
+          margin: 0 0 20px 0;
+        }
+      }
+
+      &--two {
+        &__tittle {
+          font-size: 20px;
+        }
+
+        &__paragraph2 {
+          padding: 10px 0;
+        }
+      }
+    }
+  }
+  #business {
+    .business {
+      &--get {
+        img {
+          width: 112%;
+        }
+
+        h2 {
+          margin: -60px 0 0 50px;
+        }
+
+        &__ticket {
+          padding: 16%;
+
+          &--cost {
+            padding: 0 5px 0 0;
+          }
+
+          &--deadline {
+            padding: 0 0 20px 20px;
+          }
+        }
+      }
+    }
+  }
+  #news {
+    .news {
+      &--main {
+        &__one {
+          &--first {
+            &__group {
+              &--tittle {
+                font-size: 15px;
+              }
+
+              &--paragraph {
+                font-size: 11px;
+              }
+            }
+          }
+        }
+
+        &__two {
+          img {
+            width: 88%;
+          }
+
+          h1 {
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+  #meet {
+    .meet {
+      &--position {
+        button {
+          font-size: 12px;
+        }
+
+        center {
+          padding: 75px 0 0 0;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 992px) {
+  #customer {
+    .customer {
+      &--tittle {
+        font-size: 32px;
+      }
+
+      &--message {
+        img {
+          width: 123%;
+        }
+
+        &__info {
+          width: 105%;
+
+          &--input {
+            width: 37%;
+            font-size: 9px;
+            padding: 5% 5%;
+          }
+        }
+
+        &__subject {
+          width: 94%;
+          padding: 5% 5%;
+        }
+
+        &__subject2 {
+          width: 94%;
+          padding: 5% 5%;
+        }
+      }
+    }
+  }
+  #meet {
+    .meet {
+      &--position {
+        h3 {
+          font-size: 15px;
+        }
+
+        button {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+  #news {
+    .news {
+      &--main {
+        &__one {
+          &--first {
+            &__group {
+              &--paragraph {
+                font-size: 9px;
+              }
+            }
+          }
+        }
+
+        &__two {
+          img {
+            width: 82%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #begin {
+    .begin {
+      h1 {
+        font-size: 32px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+
+      &--norton {
+        h2 {
+          font-size: 11px;
+        }
+
+        .star {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+  #customer {
+    .customer {
+      &--two {
+        &__tittle {
+          font-size: 15px;
+        }
+
+        &__paragraph2 {
+          font-size: 12px;
+        }
+      }
+
+      &--img {
+        display: none;
+      }
+
+      &--tittle {
+        font-size: 25px;
+      }
+
+      &--paragraph {
+        font-size: 13px;
+        width: 80%;
+      }
+
+      &--message {
+        p {
+          font-size: 10px;
+          width: 100%;
+        }
+      }
+    }
+  }
+  #work {
+    .work {
+      h1 {
+        font-size: 35px;
+      }
+
+      p {
+        font-size: 15px;
+        width: 120%;
+      }
+    }
+  }
+  #trust {
+    .trust {
+      &--card {
+        padding: 0 0 0 40px;
+
+        h1 {
+          font-size: 18px;
+        }
+
+        &__start {
+          &--provide {
+            #plus:checked ~ .trust--card__start--provide__lorem {
+              height: 50px;
+            }
+
+            #plus2:checked ~ .trust--card__start--provide__lorem {
+              height: 50px;
+            }
+
+            #plus3:checked ~ .trust--card__start--provide__lorem {
+              height: 50px;
+            }
+
+            #plus4:checked ~ .trust--card__start--provide__lorem {
+              height: 50px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #business {
+    .business {
+      &--tittle {
+        width: 60%;
+      }
+
+      &--product {
+        font-size: 25px;
+      }
+
+      &--get {
+        width: 50%;
+
+        h2 {
+          margin: -47px 0 0 40px;
+        }
+      }
+    }
+  }
+  #slider .slider .swiper-slide p {
+    font-size: 12px;
+  }
+  #meet .meet--position h3 {
+    font-size: 12px;
+  }
+  #news {
+    .news {
+      &--main {
+        &__one {
+          &--first {
+            &__group {
+              &--tittle {
+                font-size: 11px;
+              }
+            }
+          }
+        }
+
+        &__two {
+          h1 {
+            font-size: 25px;
+          }
+        }
+      }
+    }
+  }
+  #header {
+    .header {
+      img {
+        padding: 0 0 0 100px;
+      }
+      button {
+        font-size: 10px;
+        padding: 5% 0;
+        width: 125px;
+      }
+
+      &--menu {
+        a {
+          display: none;
+        }
+      }
+
+      .hamburger-menu{
+        display: block;
+      }
+    }
+  }
+
+
+}
+
+@media (max-width: 576px) {
+  #header {
+    .header {
+      button {
+        font-size: 10px;
+        padding: 5% 0;
+        width: 125px;
+      }
+
+      &--menu {
+        a {
+          display: none;
+        }
+      }
+    }
+  }
+  #begin {
+    padding: 100px 0 0 0;
+
+    .begin {
+      h1 {
+        font-size: 20px;
+      }
+
+      p {
+        line-height: 16px;
+        font-size: 10px;
+      }
+    }
+  }
+  #customer {
+    .customer {
+      &--tittle {
+        font-size: 19px;
+      }
+
+      &--paragraph {
+        font-size: 11px;
+        width: 60%;
+      }
+
+      &--two {
+        &__tittle {
+          font-size: 12px;
+        }
+
+        &__paragraph2 {
+          font-size: 9px;
+        }
+      }
+
+      &--btn {
+        font-size: 9px;
+      }
+
+      &--message {
+        h1 {
+          font-size: 11px;
+        }
+
+        p {
+          font-size: 8px;
+        }
+
+        button {
+          font-size: 8px;
+          width: 105%;
+        }
+      }
+    }
+  }
+  #trust {
+    .trust {
+      &--card {
+        h1 {
+          font-size: 13px;
+        }
+
+        &__paragraph {
+          font-size: 9px;
+        }
+
+        &__start {
+          padding: 20px 10px 20px 20px;
+        }
+      }
+    }
+  }
+  #business {
+    .business {
+      &--product {
+        font-size: 14px;
+      }
+
+      p {
+        font-size: 11px;
+      }
+
+      &--tittle {
+        &__h1 {
+          font-size: 15px;
+        }
+
+        &__percent {
+          font-size: 15px;
+        }
+      }
+
+      &--get {
+        h2 {
+          font-size: 11px;
+          margin: -34px 0 0 40px;
+        }
+
+        &__ticket {
+          h3 {
+            font-size: 9px;
+          }
+
+          &--cost {
+            font-size: 20px;
+          }
+
+          &--deadline {
+            font-size: 10px;
+            padding: 0 0 5px 15px;
+          }
+
+          button {
+            margin: 5px 0 0 27px;
+          }
+        }
+      }
+    }
+  }
+  #slider {
+    .slider {
+      .swiper-slide {
+        p {
+          font-size: 9px;
+        }
+
+        h1 {
+          font-size: 13px;
+        }
+
+        h3 {
+          font-size: 9px;
+        }
+
+        &__stars {
+          .star {
+            font-size: 8px;
+          }
+        }
+      }
+    }
+  }
+  #meet {
+    .meet {
+      &--position {
+        center {
+          font-size: 10px;
+          padding: 40px 0 0 0;
+        }
+
+        h3 {
+          font-size: 10px;
+        }
+
+        button {
+          font-size: 8px;
+        }
+      }
+    }
+  }
+  #news {
+    .news {
+      &--main {
+        &__one {
+          &--first {
+            padding: 5px 0 6px 12px;
+
+            &__group {
+              &--tittle {
+                width: 65%;
+                font-size: 9px;
+              }
+
+              &--paragraph {
+                width: 93%;
+                font-size: 7px;
+              }
+            }
+          }
+        }
+
+        &__two {
+          img {
+            width: 68%;
+          }
+
+          h1 {
+            width: 18%;
+            font-size: 19px;
+            padding: 3% 0 0 32%;
+          }
+
+          h2 {
+            padding: 13% 0 0 3%;
+          }
+        }
+      }
+    }
+  }
+  #theEnd {
+    padding: 25px 0;
+
+    .theEnd {
+      &--finish {
+        &__terms {
+          a {
+            font-size: 7px;
+          }
+        }
+
+        &__icons {
+          .icon {
+            font-size: 10px;
+          }
+
+          .pint {
+            width: 5%;
+            font-size: 10px;
+          }
+        }
+      }
+
+      &--with {
+        &__creat {
+          font-size: 8px;
+        }
+
+        &__power {
+          font-size: 8px;
+        }
+      }
+    }
+  }
+  .hamburger-menu{
+    display: block;
+  }
+}
+
+@media (max-width: 450px) {
+  #begin {
+    padding: 50px 0 0 0;
+
+    .begin {
+      p {
+        font-size: 8px;
+      }
+
+      &--norton {
+        h2 {
+          font-size: 8px;
+        }
+
+        .star {
+          font-size: 9px;
+        }
+      }
+
+      button {
+        font-size: 10px;
+      }
+    }
+  }
+  #work {
+    .work {
+      h1 {
+        font-size: 19px;
+      }
+
+      p {
+        font-size: 12px;
+      }
+
+      &--img3 {
+        padding: 20px 0;
+      }
+
+      &--more {
+        font-size: 10px;
+      }
+    }
+  }
+  #customer {
+    .customer {
+      &--tittle {
+        font-size: 12px;
+      }
+
+      &--paragraph {
+        font-size: 8px;
+        padding: 10px 0;
+      }
+
+      &--two {
+        &__tittle {
+          font-size: 8px;
+          padding: 0;
+        }
+
+        &__paragraph2 {
+          font-size: 6px;
+        }
+      }
+
+      &--btn {
+        font-size: 7px;
+      }
+
+      &--message {
+        margin: 0 20px 0 0;
+
+        img {
+          width: 122%;
+        }
+
+        h1 {
+          font-size: 9px;
+        }
+
+        p {
+          font-size: 6px;
+        }
+
+        &__info {
+          &--input {
+            font-size: 5px;
+          }
+        }
+
+        &__subject {
+          font-size: 5px;
+        }
+
+        &__subject2 {
+          font-size: 5px;
+        }
+      }
+    }
+  }
+  #trust {
+    padding: 70px 0;
+
+    .trust {
+      &--card {
+        h1 {
+          font-size: 11px;
+        }
+
+        &__paragraph {
+          font-size: 7px;
+          padding: 20px 0;
+        }
+
+        &__start {
+          padding: 5px 5px 0 15px;
+
+          &--provide {
+            h2 {
+              font-size: 10px;
+            }
+
+            .plus {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #business {
+    padding: 50px 0;
+
+    .business {
+
+      &--tittle {
+        &__percent {
+          font-size: 10px;
+        }
+
+        &__h1 {
+          font-size: 10px;
+        }
+      }
+
+      &--product {
+        font-size: 11px;
+      }
+
+      p {
+        width: 44%;
+        font-size: 6px;
+        padding: 10px 0;
+      }
+    }
+  }
+  #slider {
+    padding: 30px 0;
+
+    .slider {
+      .swiper-slide {
+        p {
+          font-size: 6px;
+        }
+
+        h1 {
+          font-size: 9px;
+        }
+
+        h3 {
+          font-size: 6px;
+        }
+      }
+    }
+  }
+  #meet {
+    .meet {
+      &--position {
+        h3 {
+          font-size: 7px;
+        }
+
+        button {
+          font-size: 6px;
+        }
+      }
+
+      &--svg {
+        padding: 20px 0;
+      }
+    }
+  }
+  #news {
+    padding: 50px 0;
+
+    .news {
+      &--center {
+        font-size: 9px;
+      }
+
+      &--2center {
+        font-size: 20px;
+      }
+
+      &--img {
+        display: none;
+      }
+
+      &--main {
+        &__one {
+          &--first {
+            margin: 10px 0;
+
+            &__group {
+              padding: 0 0 0 7px;
+
+              &--design {
+                font-size: 6px;
+              }
+
+              &--tittle {
+                font-size: 6px;
+                width: 80%;
+              }
+
+              &--paragraph {
+                width: 98%;
+                font-size: 5px;
+              }
+            }
+          }
+        }
+
+        &__two {
+          padding: 15px;
+
+          h1 {
+            width: 11%;
+            font-size: 11px;
+            padding: 5% 0 0 32%;
+          }
+
+          img {
+            width: 54%;
+          }
+
+          h2 {
+            padding: 0 0 0 32%;
+          }
+        }
+      }
+    }
+  }
+  #theEnd {
+    .theEnd {
+      &--finish {
+        &__terms {
+          margin: 0 0 25px 0;
+
+          a {
+            font-size: 5px;
+            padding: 0 5px;
+          }
+        }
+
+        &__icons {
+          .icon {
+            font-size: 5px;
+          }
+
+          .pint {
+            font-size: 5px;
+            width: 3%;
+          }
+        }
+      }
+
+      img {
+        width: 23%;
+      }
+
+      &--with {
+        padding: 18px 0 0 0;
+
+        &__creat {
+          font-size: 6px;
+        }
+
+        &__power {
+          font-size: 6px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  #begin {
+    .begin {
+      h1 {
+        font-size: 15px;
+        padding: 0 0 10px 0;
+      }
+
+      p {
+        font-size: 7px;
+      }
+
+      &--norton {
+        padding: 10px 0 10px 0;
+
+        h2 {
+          font-size: 6px;
+        }
+
+        .star {
+          font-size: 7px;
+        }
+      }
+
+      button {
+        font-size: 8px;
+      }
+    }
+  }
+  #work {
+    .work {
+      &--techno {
+        font-size: 8px;
+      }
+
+      h1 {
+        font-size: 15px;
+      }
+
+      p {
+        font-size: 10px;
+        line-height: 17px;
+      }
+    }
+  }
+  #trust {
+    .trust {
+      &--card {
+        h1 {
+          font-size: 9px;
+        }
+
+        &__start {
+          &--provide {
+            h2 {
+              font-size: 9px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #business {
+    .business {
+      &--get {
+        h2 {
+          font-size: 9px;
+          margin: -28px 0 0 35px;
+        }
+
+        &__ticket {
+          &--cost {
+            font-size: 17px;
+          }
+
+          &--deadline {
+            font-size: 8px;
+            padding: 0 0 5px 10px;
+          }
+
+          h3 {
+            font-size: 7px;
+            padding: 5px 0;
+          }
+
+          button {
+            font-size: 9px;
+          }
+        }
+      }
+    }
+  }
+  #slider {
+    .slider {
+      .swiper-slide {
+        padding: 10px 20px 5px 20px;
+
+        p {
+          width: 100%;
+        }
+
+        h3 {
+          padding: 3px 0;
+        }
+      }
+    }
+  }
+  #meet {
+    .meet {
+      &--position {
+        center {
+          font-size: 8px;
+          padding: 28px 0 0 0;
+        }
+
+        h3 {
+          width: 54%;
+          padding: 2.5%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  #trust {
+    .trust {
+      &--card {
+        h1 {
+          font-size: 8px;
+        }
+
+        &__paragraph {
+          font-size: 5px;
+          padding: 10px 0;
+        }
+
+        &__start {
+          &--provide {
+            h2 {
+              font-size: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #business .business--tittle {
+    padding: 15px 0;
+  }
+}
+
+@media (max-width: 360px) {
+  #header{
+    .header{
+      &--menu{
+        img{
+          width: 30%;
+        }
+      }
+      button{
+        font-size: 7px;
+        width: 85px;
+
+      }
+    }
+  }
+  #customer{
+    .customer{
+      &--paragraph{
+        font-size: 6px;
+      }
+      &--tittle{
+        font-size: 10px;
+      }
+    }
+  }
+  #trust{
+    .trust{
+      &--card{
+        &__start{
+          &--provide{
+            h2{
+              padding: 0 10px 1px 0;
+              font-size: 7px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #business .business p {
+    width: 28%;
+    font-size: 5px;
+    padding: 8px 0;
+  }
+  #slider{
+    .slider{
+      .swiper-slide{
+        .img{
+          padding: 5px 0;
+        }
+        p{
+          font-size: 5px;
+        }
+        &__stars{
+          .star{
+            font-size: 6px;
+          }
+        }
+      }
+    }
+  }
+  #meet{
+    .meet{
+      &--position{
+        h3{
+          width: 59%;
+          padding: 1%;
+        }
+        button{
+          font-size: 5px;
+        }
+      }
+      &--svg{
+        padding: 10px 0;
+      }
+    }
+  }
+  #news{
+    .news{
+      &--2center{
+        font-size: 15px;
+      }
+      &--center{
+        font-size: 7px;
+      }
+      &--main{
+        &__one{
+          &--first{
+            padding: 5px 12px 6px 7px;
+            &__group{
+              &--paragraph{
+                font-size: 4px;
+              }
+            }
+          }
+        }
+        &__two{
+          padding: 10px;
+          h2{
+            font-size: 9px;
+          }
+          h1{
+            font-size: 9px;
+          }
+        }
+      }
+    }
+  }
+  #theEnd .theEnd--with__creat {
+    font-size: 5px;
+  }
+}
+
+@media (max-width: 320px) {
+  #begin{
+    .begin{
+      p{
+        line-height: 11px;
+      }
+      h1{
+        font-size: 12px;
+      }
+      &--norton{
+        width: 23%;
+        .star{
+          font-size: 5px;
+          padding: 0;
+        }
+      }
+    }
+  }
+  #work{
+    .work{
+      p{
+        font-size: 9px;
+        line-height: 13px;
+      }
+      &--more{
+        font-size: 7px;
+      }
+      &--img3{
+        padding: 8px 0;
+      }
+    }
+  }
+  #customer{
+    .customer{
+      &--message{
+        &__subject{
+          margin: 5px 0;
+        }
+        &__subject2{
+          margin: 0 0 6px 0;
+        }
+      }
+      &--two{
+        &__tittle{
+          font-size: 6px;
+        }
+        &__paragraph2{
+          padding: 3px 0;
+          font-size: 5px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+  #business{
+    .business{
+      &--product{
+        font-size: 9px;
+      }
+      p{
+        width: 41%;
+        font-size: 4px;
+        padding: 2px 0;
+        font-weight: 300;
+      }
+      &--tittle{
+        padding: 7px 0;
+        &__h1{
+          font-weight: 300;
+        }
+        &__percent{
+          font-weight: 300;
+        }
+      }
+      &--line{
+        height: 1px;
+      }
+      &--line2{
+        height: 1px;
+      }
+      &--line3{
+        height: 1px;
+      }
+      &--get{
+        h2{
+          margin: -21px 0 0 20px;
+        }
+        &__ticket{
+          h3{
+            padding: 2px 0;
+          }
+          button{
+            font-size: 7px;
+            margin: 5px 0 0 23px;
+          }
+        }
+      }
+    }
+  }
+  #slider .slider .swiper-slide__stars .star {
+    font-size: 5px;
+  }
+  #meet{
+    .meet{
+      &--position{
+        h3{
+          width: 70%;
+        }
+        button{
+          font-size: 4px;
+        }
+      }
+    }
+  }
+  #news{
+    .news{
+      &--main{
+        &__one{
+          &--first{
+            &__group{
+              &--paragraph{
+                font-size: 3px;
+              }
+            }
+          }
+        }
+        &__two{
+          h1{
+            font-size: 8px;
+          }
+        }
+      }
+    }
+  }
+  #theEnd .theEnd--with__creat {
+    font-size: 3px;
+  }
+}
