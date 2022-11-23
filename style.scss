@@ -52,7 +52,8 @@
       padding: 8% 1%;
       cursor: pointer;
     }
-    .hamburger-menu{
+
+    .hamburger-menu {
       display: none;
     }
   }
@@ -83,9 +84,11 @@
       @include between;
       width: 19%;
       padding: 20px 0 30px 0;
-      img{
+
+      img {
         width: 30%;
       }
+
       h2 {
         font-size: 18px;
         font-family: "Oswald", sans-serif;
@@ -767,9 +770,11 @@
 
   .theEnd {
     @include between;
-    img{
+
+    img {
       width: 30%;
     }
+
     &--with {
       @include between;
       padding: 60px 0 0 0;

@@ -398,6 +398,8 @@
 
 @media (max-width: 768px) {
   #begin {
+    padding: 100px 0 0 0;
+
     .begin {
       h1 {
         font-size: 32px;
@@ -509,6 +511,7 @@
 
         h2 {
           margin: -47px 0 0 40px;
+          font-size: 14px;
         }
       }
     }
@@ -516,8 +519,22 @@
   #slider .slider .swiper-slide p {
     font-size: 12px;
   }
-  #meet .meet--position h3 {
-    font-size: 12px;
+  #meet{
+    .meet{
+      &--position{
+        center{
+          padding: 50px 0 0 0;
+        }
+        h3{
+          width: 54%;
+          font-size: 12px;
+
+        }
+      }
+      &--svg{
+        padding: 30px 0;
+      }
+    }
   }
   #news {
     .news {
@@ -545,6 +562,7 @@
       img {
         padding: 0 0 0 100px;
       }
+
       button {
         font-size: 10px;
         padding: 5% 0;
@@ -557,13 +575,90 @@
         }
       }
 
-      .hamburger-menu{
+      .hamburger-menu {
         display: block;
       }
     }
   }
+  #theEnd{
+    .theEnd{
+      &--with{
+        &__creat{
+          font-size: 8px;
+        }
+        &__power{
+          font-size: 8px;
+        }
+      }
+    }
+  }
+}
 
+@media (max-width: 694px) {
+  #business {
+    .business {
+      &--get {
+        &__ticket {
+          h3 {
+            font-size: 11px;
+            padding: 7px 0;
+          }
 
+          button {
+            margin: 10px 0 0 36px;
+          }
+        }
+
+        h2 {
+          font-size: 14px;
+        }
+      }
+
+      &--tittle {
+        h1 {
+          font-weight: 300;
+        }
+
+        &__percent {
+          font-weight: 300;
+        }
+      }
+    }
+  }
+  #slider .slider .swiper-slide {
+    padding: 20px 10px;
+  }
+}
+
+@media (max-width: 644px) {
+  #customer{
+    .customer{
+      &--message{
+        button{
+          font-size: 10px;
+        }
+      }
+      &--tittle {
+        font-size: 19px;
+      }
+    }
+  }
+  #trust{
+    .trust{
+      &--card{
+        h1{
+          width: 60%;
+        }
+        &__start{
+          &--provide{
+            h2{
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 576px) {
@@ -583,8 +678,6 @@
     }
   }
   #begin {
-    padding: 100px 0 0 0;
-
     .begin {
       h1 {
         font-size: 20px;
@@ -598,9 +691,6 @@
   }
   #customer {
     .customer {
-      &--tittle {
-        font-size: 19px;
-      }
 
       &--paragraph {
         font-size: 11px;
@@ -815,7 +905,7 @@
       }
     }
   }
-  .hamburger-menu{
+  .hamburger-menu {
     display: block;
   }
 }
@@ -1269,36 +1359,38 @@
 }
 
 @media (max-width: 360px) {
-  #header{
-    .header{
-      &--menu{
-        img{
+  #header {
+    .header {
+      &--menu {
+        img {
           width: 30%;
         }
       }
-      button{
+
+      button {
         font-size: 7px;
         width: 85px;
 
       }
     }
   }
-  #customer{
-    .customer{
-      &--paragraph{
+  #customer {
+    .customer {
+      &--paragraph {
         font-size: 6px;
       }
-      &--tittle{
+
+      &--tittle {
         font-size: 10px;
       }
     }
   }
-  #trust{
-    .trust{
-      &--card{
-        &__start{
-          &--provide{
-            h2{
+  #trust {
+    .trust {
+      &--card {
+        &__start {
+          &--provide {
+            h2 {
               padding: 0 10px 1px 0;
               font-size: 7px;
             }
@@ -1312,64 +1404,74 @@
     font-size: 5px;
     padding: 8px 0;
   }
-  #slider{
-    .slider{
-      .swiper-slide{
-        .img{
+  #slider {
+    .slider {
+      .swiper-slide {
+        .img {
           padding: 5px 0;
         }
-        p{
+
+        p {
           font-size: 5px;
         }
-        &__stars{
-          .star{
+
+        &__stars {
+          .star {
             font-size: 6px;
           }
         }
       }
     }
   }
-  #meet{
-    .meet{
-      &--position{
-        h3{
+  #meet {
+    .meet {
+      &--position {
+        h3 {
           width: 59%;
           padding: 1%;
         }
-        button{
+
+        button {
           font-size: 5px;
         }
       }
-      &--svg{
+
+      &--svg {
         padding: 10px 0;
       }
     }
   }
-  #news{
-    .news{
-      &--2center{
+  #news {
+    .news {
+      &--2center {
         font-size: 15px;
       }
-      &--center{
+
+      &--center {
         font-size: 7px;
       }
-      &--main{
-        &__one{
-          &--first{
+
+      &--main {
+        &__one {
+          &--first {
             padding: 5px 12px 6px 7px;
-            &__group{
-              &--paragraph{
+
+            &__group {
+              &--paragraph {
                 font-size: 4px;
               }
             }
           }
         }
-        &__two{
+
+        &__two {
           padding: 10px;
-          h2{
+
+          h2 {
             font-size: 9px;
           }
-          h1{
+
+          h1 {
             font-size: 9px;
           }
         }
@@ -1382,52 +1484,60 @@
 }
 
 @media (max-width: 320px) {
-  #begin{
-    .begin{
-      p{
+  #begin {
+    .begin {
+      p {
         line-height: 11px;
       }
-      h1{
+
+      h1 {
         font-size: 12px;
       }
-      &--norton{
+
+      &--norton {
         width: 23%;
-        .star{
+
+        .star {
           font-size: 5px;
           padding: 0;
         }
       }
     }
   }
-  #work{
-    .work{
-      p{
+  #work {
+    .work {
+      p {
         font-size: 9px;
         line-height: 13px;
       }
-      &--more{
+
+      &--more {
         font-size: 7px;
       }
-      &--img3{
+
+      &--img3 {
         padding: 8px 0;
       }
     }
   }
-  #customer{
-    .customer{
-      &--message{
-        &__subject{
+  #customer {
+    .customer {
+      &--message {
+        &__subject {
           margin: 5px 0;
         }
-        &__subject2{
+
+        &__subject2 {
           margin: 0 0 6px 0;
         }
       }
-      &--two{
-        &__tittle{
+
+      &--two {
+        &__tittle {
           font-size: 6px;
         }
-        &__paragraph2{
+
+        &__paragraph2 {
           padding: 3px 0;
           font-size: 5px;
           font-weight: 300;
@@ -1435,44 +1545,54 @@
       }
     }
   }
-  #business{
-    .business{
-      &--product{
+  #business {
+    .business {
+      &--product {
         font-size: 9px;
       }
-      p{
+
+      p {
         width: 41%;
         font-size: 4px;
         padding: 2px 0;
         font-weight: 300;
       }
-      &--tittle{
+
+      &--tittle {
         padding: 7px 0;
-        &__h1{
+
+        &__h1 {
           font-weight: 300;
         }
-        &__percent{
+
+        &__percent {
           font-weight: 300;
         }
       }
-      &--line{
+
+      &--line {
         height: 1px;
       }
-      &--line2{
+
+      &--line2 {
         height: 1px;
       }
-      &--line3{
+
+      &--line3 {
         height: 1px;
       }
-      &--get{
-        h2{
+
+      &--get {
+        h2 {
           margin: -21px 0 0 20px;
         }
-        &__ticket{
-          h3{
+
+        &__ticket {
+          h3 {
             padding: 2px 0;
           }
-          button{
+
+          button {
             font-size: 7px;
             margin: 5px 0 0 23px;
           }
@@ -1483,32 +1603,34 @@
   #slider .slider .swiper-slide__stars .star {
     font-size: 5px;
   }
-  #meet{
-    .meet{
-      &--position{
-        h3{
+  #meet {
+    .meet {
+      &--position {
+        h3 {
           width: 70%;
         }
-        button{
+
+        button {
           font-size: 4px;
         }
       }
     }
   }
-  #news{
-    .news{
-      &--main{
-        &__one{
-          &--first{
-            &__group{
-              &--paragraph{
+  #news {
+    .news {
+      &--main {
+        &__one {
+          &--first {
+            &__group {
+              &--paragraph {
                 font-size: 3px;
               }
             }
           }
         }
-        &__two{
-          h1{
+
+        &__two {
+          h1 {
             font-size: 8px;
           }
         }
