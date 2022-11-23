@@ -220,6 +220,9 @@
   }
 }
 @media (max-width: 768px) {
+  #begin {
+    padding: 100px 0 0 0;
+  }
   #begin .begin h1 {
     font-size: 32px;
   }
@@ -288,12 +291,20 @@
   }
   #business .business--get h2 {
     margin: -47px 0 0 40px;
+    font-size: 14px;
   }
   #slider .slider .swiper-slide p {
     font-size: 12px;
   }
+  #meet .meet--position center {
+    padding: 50px 0 0 0;
+  }
   #meet .meet--position h3 {
+    width: 54%;
     font-size: 12px;
+  }
+  #meet .meet--svg {
+    padding: 30px 0;
   }
   #news .news--main__one--first__group--tittle {
     font-size: 11px;
@@ -315,6 +326,47 @@
   #header .header .hamburger-menu {
     display: block;
   }
+  #theEnd .theEnd--with__creat {
+    font-size: 8px;
+  }
+  #theEnd .theEnd--with__power {
+    font-size: 8px;
+  }
+}
+@media (max-width: 694px) {
+  #business .business--get__ticket h3 {
+    font-size: 11px;
+    padding: 7px 0;
+  }
+  #business .business--get__ticket button {
+    margin: 10px 0 0 36px;
+  }
+  #business .business--get h2 {
+    font-size: 14px;
+  }
+  #business .business--tittle h1 {
+    font-weight: 300;
+  }
+  #business .business--tittle__percent {
+    font-weight: 300;
+  }
+  #slider .slider .swiper-slide {
+    padding: 20px 10px;
+  }
+}
+@media (max-width: 644px) {
+  #customer .customer--message button {
+    font-size: 10px;
+  }
+  #customer .customer--tittle {
+    font-size: 19px;
+  }
+  #trust .trust--card h1 {
+    width: 60%;
+  }
+  #trust .trust--card__start--provide h2 {
+    font-size: 14px;
+  }
 }
 @media (max-width: 576px) {
   #header .header button {
@@ -325,18 +377,12 @@
   #header .header--menu a {
     display: none;
   }
-  #begin {
-    padding: 100px 0 0 0;
-  }
   #begin .begin h1 {
     font-size: 20px;
   }
   #begin .begin p {
     line-height: 16px;
     font-size: 10px;
-  }
-  #customer .customer--tittle {
-    font-size: 19px;
   }
   #customer .customer--paragraph {
     font-size: 11px;
